@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,500);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,regular,italic,700);
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: "Menlo", "Raleway", "Roboto", "Source Sans Pro";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #fcb053;
+  --secondary-color: #c1c1c1;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1545px;
+  background-color: white;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px;
+  border-bottom: 1px solid var(--secondary-color);
+  box-shadow: 0 0 8px 0 rgba(193, 193, 193, 1);
+}
+
+.header-menu {
+}
+
+.header-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  font-family: "Menlo";
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.header-menu__title {
+}
+
+.header-menu__logo {
+  /* margin-right: 10px; */
+  width: 40px;
+  /* justify-content: center; */
+}
+
+.header-menu__logo-icon path {
+  fill: var(--primary-color);
+}
+
+.header-menu__search {
+  /* margin-right: 10px; */
+  /* justify-content: center; */
+  border: var(--secondary-color) 1px solid;
+  border-radius: 4px;
+  height: 50px;
+}
+.header-menu__search input {
+  padding: 0;
+  margin: 0;
+  height: 10px;
+}
+.header-menu__magnifying-glass-icon {
+  width: 20px;
+  line-height: 20px;
+  background-color: var(--secondary-color);
+}
+
+.header-menu__microphone {
+  width: 34px;
+}
+
+.header-menu__microphone-icon path {
+  fill: var(--secondary-color);
+}
+
+.header-menu__notification-icon {
+  width: 34px;
+}
+
+.header-menu__notification-icon path {
+  fill: var(--secondary-color);
+}
+
+.header-menu__profile-icon {
+  width: 50%;
+  height: 90%;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.header-menu__profile-icon {
+  width: 34px;
+  padding-left: 9px;
+}
+
+.header__body {
+}
+
+.header__container {
+}
+
+.sidepanel {
+}
+
+.sidepanel__row {
+}
+
+.wrapper {
+}
+
+.wrapper-content {
+}
+
+.inner-container {
+  opacity: 0.5;
+  background: rgba(57, 55, 72, 0.22);
+}
+
+.wrapper-background {
+  background: rgba(233, 233, 235, 0.96);
+}
+
+.navbar {
+  height: 60px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+}
